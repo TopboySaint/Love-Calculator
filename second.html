@@ -6,21 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Love Calculator</title>
   <link rel="stylesheet" href="second.css">
-  <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+  <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="shortcut icon" href="images/pexels-kristina-paukshtite-704748.jpg" type="image/x-icon">
 </head>
 
 <body>
-  <main>
+  <main class="col-11 col-lg-10 col-md-10 mx-auto shadow p-4">
     <h1 class="head">Love 💖 Calculator</h1>
-    <p class="para">Get your love result instantly.</p>
+    <p class="para fw-bold">Get your love result instantly.</p>
     <div id="alert" class="animate__animated animate__headShake">These spaces can't be blank</div>
-    <input type="text" placeholder="Your Name ❤" id="manName">
-    <input type="text" placeholder="Your Partner's 💕 Name" id="womanName">
+    <input type="text" placeholder="Your Name ❤" id="manName" class="form-control mb-3 mt-5 shadow-none">
+    <input type="text" placeholder="Your Partner's 💕 Name" id="womanName" class="form-control shadow-none">
 
-    <button onclick="calculate()">
-      Calculate
+    <button onclick="calculate()" class="btn btn-danger mx-auto d-block w-50 fw-bold">
+      Calculate 💖
       <div class="star-1">
         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
           style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
@@ -101,11 +101,12 @@
       </div>
     </button>
 
+    <main class="mainTwo mt-5 pt-5">
+      <div id="show" class="text-danger fw-bold text-center">SEE RESULT HERE</div>
+    </main>
+
   </main>
 
-  <main style="border-bottom: 2px solid whitesmoke; border-radius: 20px;">
-    <div id="show">SEE RESULT HERE</div>
-  </main>
 
   <script src="script.js"></script>
 
