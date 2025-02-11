@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Rubik+Scribble&display=swap");
 
 body {
-  background-image: url(images/pexels-asad-photo-maldives-1024984.jpg);
+  background-image: url(images/pexels-pixabay-269583.jpg);
   background-size: cover;
   background-position: 0;
   background-repeat: repeat;
@@ -23,7 +23,9 @@ input {
 .head {
   text-align: center;
   font-weight: 800;
-  color: red;
+  color: white;
+  font-size: 35px;
+  font-family: "Rubik Scribble", system-ui;
 }
 
 .para {
@@ -31,6 +33,7 @@ input {
   font-weight: 800;
   font-family: cursive;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 #alert {
@@ -46,17 +49,18 @@ input {
 }
 
 .mainTwo{
-  border-bottom: 2px solid #fff;
+  border-bottom: 5px solid #fff;
    border-radius: 20px;
 }
 
 #show {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 800;
   text-align: center;
-  font-family: cursive;
+  font-family:cursive;
   margin: auto;
 }
+
 button {
   position: relative;
   top: 36px;

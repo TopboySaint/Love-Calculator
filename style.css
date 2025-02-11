@@ -23,16 +23,19 @@ main {
   color: whitesmoke;
   font-size: 20px;
   padding: 50px;
+  font-family: "Rubik Scribble", system-ui;
 }
 .header {
   color: whitesmoke;
   padding: 50px;
+  font-family: "Rubik Scribble", system-ui;
 }
 
 .headers {
   color: whitesmoke;
   padding: 50px;
   font-size: 35px;
+  font-family: "Rubik Scribble", system-ui;
 }
 
 main img {
